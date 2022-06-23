@@ -7,6 +7,7 @@ import (
 	"context"
 	"io"
 	"os"
+	_ "os/exec"
 	"syscall"
 
 	_ "unsafe" // for go:linkname
